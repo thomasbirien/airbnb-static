@@ -8,3 +8,118 @@ title: Le Wagon Middleman boilerplate
     <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
   </p>
 </div>
+
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url('images/background.jpg');">
+      <div></div>
+      <div class="banner-content">
+        <h1>Banner title</h1>
+        <p>blalblabla</p>
+        <a href="#" class="btn btn-primary btn-lg">enter</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="features text-center padded">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/globe.png" alt="globe">
+            <h2>Discover the world</h2>
+            <p>The earth is your new home.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/dollar.png" alt="dollar">
+            <h2>Pay online </h2>
+            <p>No cash issues anymore.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/beer.png" alt="beer">
+            <h2>Meet people</h2>
+            <p>Discover new culture and lifestyle.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/heart.png" alt="hearth">
+            <h2>Share and love</h2>
+            <p>Join a community you will love.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 50%), url('images/card-paris.jpg');">
+          <div class="card-category">Paris</div>
+          <div class="card-description">
+            <h3>Zeph home</h3>
+            <p>j'en ai aucune idée !!!</p>
+          </div>
+          <img class="card-user avatar" src="images/seb.jpg" alt="user" >
+          <a class="card-link" href="#"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 50%), url('images/card-paris.jpg');">
+          <div class="card-category">Paris</div>
+          <div class="card-description">
+            <h3>Zeph home</h3>
+            <p>j'en ai aucune idée !!!</p>
+          </div>
+          <img class="card-user avatar" src="images/seb.jpg" alt="user" >
+          <a class="card-link" href="#"></a>
+          </div>
+          <!-- insert <div class="card"> -->
+        </div>
+        <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 50%), url('images/card-paris.jpg');">
+          <div class="card-category">Paris</div>
+          <div class="card-description">
+            <h3>Zeph home</h3>
+            <p>j'en ai aucune idée !!!</p>
+          </div>
+          <img class="card-user avatar" src="images/seb.jpg" alt="user" >
+          <a class="card-link" href="#"></a>
+          </div>
+          <!-- insert <div class="card"> -->
+        </div>
+      </div>
+    </div>
+
+    <div id="newsletter" class="text-center padded">
+      <h2>Get news from us</h2>
+      <p>Leave us your mail and get news from us!</p>
+      <form class="form-inline">
+        <input type="email" class="form-control" placeholder="un email abruti!">
+        <button type="submit" class="btn btn-warning">touch!</button>
+      </form>
+    </div>
+
+    <div id="map" style="width: 100%; height: 550px;">
+
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+      <script type="text/javascript">
+        var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
+
+        var myOptions = {
+          zoom: 16,
+          center: myLatlng,
+          scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+        };
+
+        var map = new google.maps.Map(document.getElementById('map'), myOptions);
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: "You are here!"
+        });
+      </script>
+    </div>
+
+
+
+
+
