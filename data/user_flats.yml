@@ -1,0 +1,19 @@
+romain:
+  picture: romain.jpg
+  role: cto
+  city: Paris
+  flat_name: romain home
+  flat_description: aucune idée !
+anne:
+  picture: anne.jpg
+  role: cfo
+  city: Paris
+  flat_name: anne home
+  flat_description: aucune idée aussi !
+seb:
+  picture: seb.jpg
+  role: coo
+  city: London
+  flat_name: seb home
+  flat_description: aucune idée non plus !
+
